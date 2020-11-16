@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/huayuyue/AndroidStudioProjects/SICSCling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/huayuyue/Desktop/sicscling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/huayuyue/.gradle/caches/transforms-2/files-2.1/12848b6e158399c9fecf360b368048b1/support-media-compat-27.1.1/res/values-v21/values-v21.xml",

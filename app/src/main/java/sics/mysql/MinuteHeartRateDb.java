@@ -33,9 +33,9 @@ public class MinuteHeartRateDb {
             connection.commit();
             return result;
         } catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4008");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4009");
         }
     }
 
@@ -62,9 +62,9 @@ public class MinuteHeartRateDb {
             }
             return list;
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4010");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4011");
         }
     }
 }

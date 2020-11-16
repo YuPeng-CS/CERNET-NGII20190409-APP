@@ -9,6 +9,7 @@ import io.reactivex.ObservableEmitter;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 import sics.bean.UserInfo;
+import sics.mysql.ConfigDb;
 import sics.mysql.RoleUserDb;
 import sics.mysql.UserInfoDb;
 import sics.tool.ObjStrTool;
@@ -44,6 +45,8 @@ public class UserInfoObservable {
             int arg1=UserInfoDb.insertUserInfo(userInfo);
             UserInfo newUserInfo=UserInfoDb.selectUserInfo(userInfo);
             int arg2= RoleUserDb.insertRoleUser(newUserInfo.getUid(),1);
+            //int arg3= ConfigDb.insertConfigValue(1);
+            //int arg4= ConfigDb.insertConfigValue(2);
             emitter.onNext(arg1+arg2);
             emitter.onComplete();
         }).subscribeOn(Schedulers.io()).observeOn(AndroidSchedulers.mainThread());

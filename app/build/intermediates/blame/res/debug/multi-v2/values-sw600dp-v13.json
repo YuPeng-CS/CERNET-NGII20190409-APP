@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/huayuyue/AndroidStudioProjects/SICSCling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/Users/huayuyue/Desktop/sicscling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
                     "source": "/Users/huayuyue/.gradle/caches/transforms-2/files-2.1/324eff4d92a34e95327c58724a5cd181/design-27.1.1/res/values-sw600dp-v13/values-sw600dp-v13.xml",

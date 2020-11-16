@@ -27,9 +27,9 @@ public class UserInfoDb {
             ps.setTimestamp(7,new Timestamp(System.currentTimeMillis()));
             return ps.executeUpdate();
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4020");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4021");
         }
     }
 
@@ -54,9 +54,10 @@ public class UserInfoDb {
             }
             return userInfo;
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            e.printStackTrace();
+            throw new DbException(0,"服务器连接失败 error code:4022");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4023");
         }
     }
 
@@ -72,9 +73,9 @@ public class UserInfoDb {
             ps.setLong(4,userInfo.getUid());
             return ps.executeUpdate();
         } catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4024");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4025");
         }
     }
 }

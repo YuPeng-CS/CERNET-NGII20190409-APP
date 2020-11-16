@@ -1,5 +1,7 @@
 package sics.observable;
 
+import android.util.Log;
+
 import com.encrypty.SecretKey;
 
 import java.sql.Timestamp;

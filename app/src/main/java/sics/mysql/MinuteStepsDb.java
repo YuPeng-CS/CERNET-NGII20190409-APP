@@ -33,9 +33,9 @@ public class MinuteStepsDb {
             connection.commit();
             return result;
         } catch (SQLException e) {
-            throw new DbException(0, "服务器连接失败");
+            throw new DbException(0, "服务器连接失败 error code:4016");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1, "服务器连接失败");
+            throw new DbException(1, "服务器连接失败 error code:4017");
         }
     }
 
@@ -62,9 +62,9 @@ public class MinuteStepsDb {
             }
             return list;
         } catch (SQLException e) {
-            throw new DbException(0, "服务器连接失败");
+            throw new DbException(0, "服务器连接失败18");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1, "服务器连接失败");
+            throw new DbException(1, "服务器连接失败19");
         }
     }
 }

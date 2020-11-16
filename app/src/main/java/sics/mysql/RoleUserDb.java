@@ -18,9 +18,9 @@ public class RoleUserDb {
             ps.setLong(2,roleId);
             return ps.executeUpdate();
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4018");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4019");
         }
     }
 }

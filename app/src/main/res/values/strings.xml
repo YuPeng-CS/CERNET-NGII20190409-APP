@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">基于ipv6的健康助手</string>
+    <string name="app_name">基于IPv6的健康助手</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="url_heart">https://contentcenter-drcn.dbankcdn.com/pub_1/WiseMarketing_text_500_5/4f/v3/2fwm4ogUQc-9ARiPsMzKLg/dc23da64caf2458a8496b993173b7880.html</string>
     <string name="url_heart1">https://contentcenter-drcn.dbankcdn.com/pub_1/WiseMarketing_text_500_5/69/v3/AP5xHGBgS5aptKSCiM33ZQ/08d9913e1c14438d931cad58c2e1b797.html</string>
@@ -11,5 +11,4 @@
     <string name="url_run1">https://contentcenter-drcn.dbankcdn.com/pub_1/WiseMarketing_text_500_5/bc/v3/7F6UjWnbTxGGEAZ1C3UDJA/842754dc9d1e4fa784617c62dca07ebd.html</string>
 
     <!-- 数据库连接相关参数 -->
-
 </resources>

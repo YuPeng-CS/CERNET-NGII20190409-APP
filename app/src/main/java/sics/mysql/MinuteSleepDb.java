@@ -35,9 +35,9 @@ public class MinuteSleepDb {
             connection.commit();
             return result;
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4012");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4013");
         }
     }
 
@@ -64,9 +64,9 @@ public class MinuteSleepDb {
             }
             return list;
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4014");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4015");
         }
     }
 }

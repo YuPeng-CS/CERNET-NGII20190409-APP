@@ -37,9 +37,11 @@ public class DayDataDb {
             connection.commit();
             return result;
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            e.printStackTrace();
+            throw new DbException(0,"服务器连接失败 error code:4004");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            e.printStackTrace();
+            throw new DbException(1,"服务器连接失败 error code:4005");
         }
     }
 
@@ -68,9 +70,9 @@ public class DayDataDb {
             }
             return list;
         }catch (SQLException e) {
-            throw new DbException(0,"服务器连接失败");
+            throw new DbException(0,"服务器连接失败 error code:4006");
         } catch (ClassNotFoundException e) {
-            throw new DbException(1,"服务器连接失败");
+            throw new DbException(1,"服务器连接失败 error code:4007");
         }
     }
 }
