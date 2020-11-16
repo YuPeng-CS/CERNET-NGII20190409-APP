@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">基于ipv6的健康助手</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="url_heart">https://contentcenter-drcn.dbankcdn.com/pub_1/WiseMarketing_text_500_5/4f/v3/2fwm4ogUQc-9ARiPsMzKLg/dc23da64caf2458a8496b993173b7880.html</string>
+    <string name="url_heart1">https://contentcenter-drcn.dbankcdn.com/pub_1/WiseMarketing_text_500_5/69/v3/AP5xHGBgS5aptKSCiM33ZQ/08d9913e1c14438d931cad58c2e1b797.html</string>
+
+    <string name="url_sleep">https://mp.weixin.qq.com/s?__biz=MzA5ODY0ODgzMA==&#038;mid=515328370&#038;idx=1&#038;sn=536a224c3c04f389060fed3deaafbc43&#038;chksm=0bcdbee33cba37f5469878a15fa2a58cd9df28cce53473f28685f545dc55383a276850477822%23rd</string>
+    <string name="url_sleep1">https://mp.weixin.qq.com/s?__biz=MzA5ODY0ODgzMA==&#038;mid=515327374&#038;idx=2&#038;sn=20977edb53594479df1349440f9683c7&#038;chksm=0bcdb21f3cba3b0965f9b599316d5caa4606dc2d7e62ae8b335be5f551bc153f5494ede21c99%23rd</string>
+
+    <string name="url_run">https://contentcenter-drcn.dbankcdn.com/pub_1/WiseMarketing_text_500_5/ee/v3/93DpNPZ6TqGAy0nwEVujdQ/66767156ea894b398815a237db239335.html</string>
+    <string name="url_run1">https://contentcenter-drcn.dbankcdn.com/pub_1/WiseMarketing_text_500_5/bc/v3/7F6UjWnbTxGGEAZ1C3UDJA/842754dc9d1e4fa784617c62dca07ebd.html</string>
+
+    <!-- 数据库连接相关参数 -->
+
+</resources>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/person_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_man">
+            </ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="邮箱"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp">
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/person_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="用户名"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp">
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/person_name"
+                    android:maxLength="20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp">
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="昵称"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp">
+                </TextView>
+
+
+                <EditText
+                    android:id="@+id/person_nickname"
+                    android:maxLength="20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp">
+                </EditText>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="性别"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp">
+                </TextView>
+
+
+                <RadioGroup
+                    android:id="@+id/person_sex"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp">
+                    <RadioButton
+                        android:id="@+id/person_man"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="男">
+                    </RadioButton>
+                    <RadioButton
+                        android:id="@+id/person_woman"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="女">
+                    </RadioButton>
+                </RadioGroup>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="年龄"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:layout_marginTop="20dp">
+                </TextView>
+
+
+                <EditText
+                    android:id="@+id/person_age"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:maxLength="3"
+                    android:inputType="number"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp">
+                </EditText>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/person_save"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/btn_primary"
+                android:textColor="@color/white"
+                android:text="保存">
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

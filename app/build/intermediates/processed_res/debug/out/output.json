@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "applicationId": "sics.cling",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "PROCESSED_RES"
+      },
+      "apkData": {
+        "type": "FULL_SPLIT",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "1.0",
+        "filterName": "universal",
+        "outputFile": "app-universal-debug.apk",
+        "fullName": "universalDebug",
+        "baseName": "universal-debug",
+        "dirName": "universal"
+      },
+      "path": "resources-universalDebug.ap_",
+      "properties": {
+        "packageId": "sics.cling",
+        "split": "",
+        "minSdkVersion": "26"
+      }
+    }
+  ]
+}

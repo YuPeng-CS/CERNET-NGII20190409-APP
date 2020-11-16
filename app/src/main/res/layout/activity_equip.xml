@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="sics.activity.EquipActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/equip_state_watch"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="未连接"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:drawableTop="@drawable/ic_b_watch"
+            android:background="@drawable/view_radius" />
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/equip_tip"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <ProgressBar
+                    android:id="@+id/equip_progress"
+                    android:layout_width="40dp"
+                    android:layout_gravity="center"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/equip_progress_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#b5b5b5">
+    </View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:id="@+id/equip_data_heart"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_b_heart"
+                    android:gravity="center"
+                    android:background="@drawable/view_radius"
+                    android:layout_marginRight="20dp"
+                    android:text="心率---"/>
+                <TextView
+                    android:id="@+id/equip_data_step"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_b_run"
+                    android:gravity="center"
+                    android:background="@drawable/view_radius"
+                    android:text="步数---"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:id="@+id/equip_data_cal"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_b_ka"
+                    android:gravity="center"
+                    android:background="@drawable/view_radius"
+                    android:layout_marginRight="20dp"
+                    android:text="卡路里---"/>
+                <TextView
+                    android:id="@+id/equip_data_temp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_b_temp"
+                    android:gravity="center"
+                    android:background="@drawable/view_radius"
+                    android:text="温度---"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:id="@+id/equip_data_bp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_b_bp"
+                    android:gravity="center"
+                    android:background="@drawable/view_radius"
+                    android:layout_marginRight="20dp"
+                    android:text="血压低压---"/>
+                <TextView
+                    android:id="@+id/equip_data_hp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/ic_b_hp"
+                    android:gravity="center"
+                    android:background="@drawable/view_radius"
+                    android:text="血压高压---"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/equip_send_data"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_b_upload"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/btn_secondry"
+            android:padding="5dp"
+            android:text="上传数据" />
+
+        <Button
+            android:id="@+id/equip_start_scan"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="开始扫描"
+            android:textColor="@color/colorWhite"
+            android:padding="5dp"
+            android:background="@drawable/btn_primary"
+            android:drawableTop="@drawable/ic_b_bluetooth"/>
+    </LinearLayout>
+</LinearLayout>

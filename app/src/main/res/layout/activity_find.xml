@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        tools:context="sics.activity.FindActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="开始时间"/>
+
+            <TextView
+                android:id="@+id/find_begin_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|end"
+                android:drawableEnd="@drawable/ic_right"
+                android:background="@drawable/tv_select"/>
+        </LinearLayout>
+
+        <View android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="#d5d5d5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="结束时间"/>
+
+            <TextView
+                android:id="@+id/find_end_time"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|end"
+                android:drawableEnd="@drawable/ic_right"
+                android:background="@drawable/tv_select"/>
+        </LinearLayout>
+
+        <View android:layout_height="0.5dp"
+            android:layout_width="match_parent"
+            android:background="#d5d5d5"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="查询区间"/>
+
+            <TextView
+                android:id="@+id/find_section"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:gravity="center_vertical|end"
+                android:drawableEnd="@drawable/ic_right"
+                android:background="@drawable/tv_select"/>
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/find_find"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_primary"
+            android:textColor="@color/white"
+            android:text="开始查询" />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/find_line_chart"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/find_bar_chart"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/find_pie_chart"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"/>
+    </LinearLayout>
+</ScrollView>

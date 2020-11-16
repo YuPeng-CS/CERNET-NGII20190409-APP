@@ -1,0 +1,248 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/b6e4c1ad9f7de12fcfd0354feb09f722/rxandroid-2.1.1/AndroidManifest.xml:15:1-20:12
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/bae90b9f7ba6b18f10d5a111f5c00bf2/butterknife-8.8.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:design:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/324eff4d92a34e95327c58724a5cd181/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:multidex:1.0.3] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/08da1448d09dc9e4f7751eef9817ffda/multidex-1.0.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/3888b76ca1d3233026c2f5cad8877075/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/5613b1575c45a5ed4dab5ab199b10ad0/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/c27add378764bdcebfb24b34f0f1f3f3/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/6dc35360d9bdc2e02440dcf125237820/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/12848b6e158399c9fecf360b368048b1/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/34b522c8855e0c73cf9effc4a9a32013/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/8620ba8927b39a6d291db6ea05c53d76/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/bf9b5a52845b8771aff5fabdecdcc03d/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/beeb82b2510e87c5231b2c828dbda485/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/d8d452f44ab125f201933d0870752fbc/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/222ad3875af524dbeddaea9e092a0d60/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/115e96da560aef7a1eded67ff187307e/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/eb11e490220b2b77e71b21d47a6ef261/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/555b39dad4a9593ee5ac0435517d4a05/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/f3d8400d34d44a28d45a1ffcf10f060c/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+	package
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:4:5-25
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:1-73:12
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:6:5-68
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:6:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:7:22-71
+uses-feature#android.hardware.bluetooth_le
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:9:5-11:35
+	android:required
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:11:9-32
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:10:9-53
+uses-permission#android.permission.INTERNET
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:13:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:16:22-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:17:5-19:47
+	tools:ignore
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:19:9-44
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:18:9-68
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:20:5-70
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:20:22-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:22:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:23:5-76
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:23:22-73
+uses-permission#android.permission.ACCESS_CHECKIN_PROPERTIES
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:25:5-27:47
+	tools:ignore
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:27:9-44
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:26:9-68
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:28:5-81
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:28:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:29:22-76
+uses-permission#android.permission.READ_CALL_LOG
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:30:5-72
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:30:22-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:31:5-72
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:31:22-69
+application
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:33:5-71:19
+	android:supportsRtl
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:39:9-35
+	android:label
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:37:9-41
+	android:roundIcon
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:38:9-49
+	android:icon
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:36:9-44
+	android:allowBackup
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:35:9-35
+	android:theme
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:40:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:41:9-44
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:34:9-51
+activity#sics.activity.EquipActivity
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:42:9-44:71
+	android:parentActivityName
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:44:13-68
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:43:13-55
+activity#sics.activity.FindActivity
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:45:9-47:71
+	android:parentActivityName
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:47:13-68
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:46:13-54
+activity#sics.activity.WebActivity
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:48:9-50:71
+	android:parentActivityName
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:50:13-68
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:49:13-53
+activity#sics.activity.RegisterActivity
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:51:9-53:72
+	android:parentActivityName
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:53:13-69
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:52:13-58
+activity#sics.activity.LoginActivity
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:54:9-60:20
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:54:19-61
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:55:13-59:29
+action#android.intent.action.MAIN
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:56:17-69
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:56:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:58:17-77
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:58:27-74
+activity#sics.activity.MainActivity
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:61:9-64:55
+	android:parentActivityName
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:63:13-69
+	android:windowSoftInputMode
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:64:13-52
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:62:13-54
+service#com.hicling.clingsdk.bleservice.ClingCommunicatorService
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:66:9-92
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:66:18-89
+service#com.hicling.clingsdk.network.ClingNetWorkService
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:67:9-84
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:67:18-81
+service#com.hicling.clingsdk.systembroadcast.ClingSystemBroadcastService
+ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:68:9-70:38
+	android:enabled
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:70:13-35
+	android:name
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:69:13-92
+uses-sdk
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/b6e4c1ad9f7de12fcfd0354feb09f722/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/b6e4c1ad9f7de12fcfd0354feb09f722/rxandroid-2.1.1/AndroidManifest.xml:18:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/bae90b9f7ba6b18f10d5a111f5c00bf2/butterknife-8.8.1/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/bae90b9f7ba6b18f10d5a111f5c00bf2/butterknife-8.8.1/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:design:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/324eff4d92a34e95327c58724a5cd181/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/324eff4d92a34e95327c58724a5cd181/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.3] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/08da1448d09dc9e4f7751eef9817ffda/multidex-1.0.3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/08da1448d09dc9e4f7751eef9817ffda/multidex-1.0.3/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/3888b76ca1d3233026c2f5cad8877075/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/3888b76ca1d3233026c2f5cad8877075/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/5613b1575c45a5ed4dab5ab199b10ad0/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/5613b1575c45a5ed4dab5ab199b10ad0/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/c27add378764bdcebfb24b34f0f1f3f3/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/c27add378764bdcebfb24b34f0f1f3f3/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/6dc35360d9bdc2e02440dcf125237820/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/6dc35360d9bdc2e02440dcf125237820/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/12848b6e158399c9fecf360b368048b1/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/12848b6e158399c9fecf360b368048b1/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/34b522c8855e0c73cf9effc4a9a32013/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/34b522c8855e0c73cf9effc4a9a32013/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/8620ba8927b39a6d291db6ea05c53d76/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/8620ba8927b39a6d291db6ea05c53d76/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/bf9b5a52845b8771aff5fabdecdcc03d/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/bf9b5a52845b8771aff5fabdecdcc03d/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/beeb82b2510e87c5231b2c828dbda485/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/beeb82b2510e87c5231b2c828dbda485/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/d8d452f44ab125f201933d0870752fbc/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/d8d452f44ab125f201933d0870752fbc/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/222ad3875af524dbeddaea9e092a0d60/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/222ad3875af524dbeddaea9e092a0d60/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/115e96da560aef7a1eded67ff187307e/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/115e96da560aef7a1eded67ff187307e/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/eb11e490220b2b77e71b21d47a6ef261/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/eb11e490220b2b77e71b21d47a6ef261/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/555b39dad4a9593ee5ac0435517d4a05/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/555b39dad4a9593ee5ac0435517d4a05/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/f3d8400d34d44a28d45a1ffcf10f060c/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/huayuyue/.gradle/caches/transforms-2/files-2.1/f3d8400d34d44a28d45a1ffcf10f060c/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml

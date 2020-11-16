@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sics.cling"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="30" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- android6.0以上使用蓝牙需要的权限，否则在Android6.0以上的手机扫描不到蓝牙设备 -->
+    <!-- 允许读写访问”properties”表在 checkin数据库中，改值可以修改上传( Allows read/write access to the “properties” table in the checkin database, to change values that get uploaded) -->
+    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" /> <!-- 允许一个程序访问CellID或WiFi热点来获取粗略的位置(Allows an application to access coarse (e.g., Cell-ID, WiFi) location) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 允许一个程序访问精良位置(如GPS) (Allows an application to access fine (e.g., GPS) location) -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 读写通话记录 -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <!-- 低版本使用该权限 -->
+    <application
+        android:name="sics.activity.MyApplication"
+        android:allowBackup="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/ic_b_watch"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_b_watch"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="sics.activity.EquipActivity"
+            android:parentActivityName="sics.activity.MainActivity" />
+        <activity
+            android:name="sics.activity.FindActivity"
+            android:parentActivityName="sics.activity.MainActivity" />
+        <activity
+            android:name="sics.activity.WebActivity"
+            android:parentActivityName="sics.activity.FindActivity" />
+        <activity
+            android:name="sics.activity.RegisterActivity"
+            android:parentActivityName="sics.activity.LoginActivity" />
+        <activity android:name="sics.activity.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="sics.activity.MainActivity"
+            android:parentActivityName="sics.activity.LoginActivity"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service android:name="com.hicling.clingsdk.bleservice.ClingCommunicatorService" />
+        <service android:name="com.hicling.clingsdk.network.ClingNetWorkService" />
+        <service
+            android:name="com.hicling.clingsdk.systembroadcast.ClingSystemBroadcastService"
+            android:enabled="true" />
+    </application>
+
+</manifest>

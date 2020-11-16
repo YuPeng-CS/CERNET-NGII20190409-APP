@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/register_edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:hint="请输入邮箱"
+        />
+
+    <EditText
+        android:id="@+id/register_edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:hint="请输入密码"
+        />
+
+    <EditText
+        android:id="@+id/register_edittext_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:hint="请再次输入密码"
+        />
+
+
+
+    <Button
+        android:id="@+id/register_button_register"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/btn_primary"
+        android:textColor="@color/white"
+        android:text="注册"
+        />
+</LinearLayout>

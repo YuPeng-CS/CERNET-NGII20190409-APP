@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|start"
+            android:text="心脏健康指南" />
+
+
+        <LinearLayout
+            android:id="@+id/frag_find_heart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/heart" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="基于华为智能穿戴的心脏健康研究，写入2020 ESC房颤管理指南！" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b5b5b5" />
+
+        <LinearLayout
+            android:id="@+id/frag_find_heart1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/heart1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="运动时眼前发黑，突然晕厥，与心律失常有关吗？" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b5b5b5" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|start"
+            android:text="睡眠研究所" />
+
+        <LinearLayout
+            android:id="@+id/frag_find_sleep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/sleep" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="揭秘 | 做梦很多，会影响睡眠质量吗？" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b5b5b5" />
+
+        <LinearLayout
+            android:id="@+id/frag_find_sleep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/sleep1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="睡得长，不一定睡得好？这招帮你判断 " />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b5b5b5" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical|start"
+            android:text="运动指南" />
+
+        <LinearLayout
+            android:id="@+id/frag_find_run"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/run" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="有你吗？9个跑步误区，给你正确答案" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#b5b5b5" />
+
+        <LinearLayout
+            android:id="@+id/frag_find_run1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:src="@drawable/run1" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="一跑步就肚子痛？舒服开跑的正确方式" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

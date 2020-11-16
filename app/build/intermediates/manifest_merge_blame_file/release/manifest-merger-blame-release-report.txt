@@ -1,0 +1,152 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sics.cling"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH" />
+11-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:6:5-68
+11-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:6:22-65
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:7:5-74
+12-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:7:22-71
+13
+14    <uses-feature
+14-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:9:5-11:35
+15        android:name="android.hardware.bluetooth_le"
+15-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:10:9-53
+16        android:required="true" />
+16-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:11:9-32
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:13:5-67
+18-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:13:22-64
+19    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+19-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:14:5-75
+19-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:14:22-72
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:15:5-81
+20-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:15:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:16:5-80
+21-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:16:22-77
+22    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+22-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:17:5-19:47
+22-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:18:9-68
+23    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+23-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:20:5-70
+23-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:20:22-67
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:21:5-79
+24-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:21:22-76
+25    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+25-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:22:5-76
+25-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:22:22-73
+26    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- android6.0以上使用蓝牙需要的权限，否则在Android6.0以上的手机扫描不到蓝牙设备 -->
+26-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:23:5-76
+26-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:23:22-73
+27    <!-- 允许读写访问”properties”表在 checkin数据库中，改值可以修改上传( Allows read/write access to the “properties” table in the checkin database, to change values that get uploaded) -->
+28    <uses-permission android:name="android.permission.ACCESS_CHECKIN_PROPERTIES" /> <!-- 允许一个程序访问CellID或WiFi热点来获取粗略的位置(Allows an application to access coarse (e.g., Cell-ID, WiFi) location) -->
+28-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:25:5-27:47
+28-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:26:9-68
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 允许一个程序访问精良位置(如GPS) (Allows an application to access fine (e.g., GPS) location) -->
+29-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:28:5-81
+29-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:28:22-78
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 读写通话记录 -->
+30-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:29:5-79
+30-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:29:22-76
+31    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+31-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:30:5-72
+31-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:30:22-69
+32    <uses-permission android:name="android.permission.READ_CONTACTS" />
+32-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:31:5-72
+32-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:31:22-69
+33
+34    <!-- 低版本使用该权限 -->
+35    <application
+35-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:33:5-71:19
+36        android:name="sics.activity.MyApplication"
+36-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:34:9-51
+37        android:allowBackup="true"
+37-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:35:9-35
+38        android:extractNativeLibs="false"
+39        android:icon="@drawable/ic_b_watch"
+39-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:36:9-44
+40        android:label="@string/app_name"
+40-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:37:9-41
+41        android:roundIcon="@drawable/ic_b_watch"
+41-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:38:9-49
+42        android:supportsRtl="true"
+42-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:39:9-35
+43        android:theme="@style/AppTheme"
+43-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:40:9-40
+44        android:usesCleartextTraffic="true" >
+44-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:41:9-44
+45        <activity
+45-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:42:9-44:71
+46            android:name="sics.activity.EquipActivity"
+46-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:43:13-55
+47            android:parentActivityName="sics.activity.MainActivity" />
+47-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:44:13-68
+48        <activity
+48-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:45:9-47:71
+49            android:name="sics.activity.FindActivity"
+49-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:46:13-54
+50            android:parentActivityName="sics.activity.MainActivity" />
+50-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:47:13-68
+51        <activity
+51-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:48:9-50:71
+52            android:name="sics.activity.WebActivity"
+52-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:49:13-53
+53            android:parentActivityName="sics.activity.FindActivity" />
+53-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:50:13-68
+54        <activity
+54-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:51:9-53:72
+55            android:name="sics.activity.RegisterActivity"
+55-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:52:13-58
+56            android:parentActivityName="sics.activity.LoginActivity" />
+56-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:53:13-69
+57        <activity android:name="sics.activity.LoginActivity" >
+57-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:54:9-60:20
+57-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:54:19-61
+58            <intent-filter>
+58-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:55:13-59:29
+59                <action android:name="android.intent.action.MAIN" />
+59-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:56:17-69
+59-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:56:25-66
+60
+61                <category android:name="android.intent.category.LAUNCHER" />
+61-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:58:17-77
+61-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:58:27-74
+62            </intent-filter>
+63        </activity>
+64        <activity
+64-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:61:9-64:55
+65            android:name="sics.activity.MainActivity"
+65-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:62:13-54
+66            android:parentActivityName="sics.activity.LoginActivity"
+66-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:63:13-69
+67            android:windowSoftInputMode="adjustPan" />
+67-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:64:13-52
+68
+69        <service android:name="com.hicling.clingsdk.bleservice.ClingCommunicatorService" />
+69-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:66:9-92
+69-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:66:18-89
+70        <service android:name="com.hicling.clingsdk.network.ClingNetWorkService" />
+70-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:67:9-84
+70-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:67:18-81
+71        <service
+71-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:68:9-70:38
+72            android:name="com.hicling.clingsdk.systembroadcast.ClingSystemBroadcastService"
+72-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:69:13-92
+73            android:enabled="true" />
+73-->/Users/huayuyue/AndroidStudioProjects/SICSCling/app/src/main/AndroidManifest.xml:70:13-35
+74    </application>
+75
+76</manifest>

@@ -1,0 +1,4 @@
+#Sun Nov 15 03:03:16 CST 2020
+base.0=/Users/huayuyue/AndroidStudioProjects/SICSCling/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

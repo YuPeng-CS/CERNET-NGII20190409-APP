@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#303F9F" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <RadioButton
+            android:id="@+id/main_rb_home"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="主页"
+            android:drawableTop="@drawable/ic_home"
+            android:gravity="center">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_rb_equip"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="设备"
+            android:drawableTop="@drawable/ic_watch"
+            android:gravity="center">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_rb_find"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="发现"
+            android:drawableTop="@drawable/ic_find"
+            android:gravity="center">
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/main_rb_person"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="个人中心"
+            android:drawableTop="@drawable/ic_person"
+            android:gravity="center">
+        </RadioButton>
+
+    </RadioGroup>
+
+</LinearLayout>

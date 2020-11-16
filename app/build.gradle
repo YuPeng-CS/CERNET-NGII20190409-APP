@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "sics.cling"
+        minSdkVersion 26
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        ndk {
+            abiFilters 'armeabi' , 'armeabi','x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'x86', 'armeabi-v7a','x86_64'
+            universalApk true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions{
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation files('libs/MPAndroidChart-v3.0.3.jar')
+    implementation files('libs/Jama-1.0.3.jar')
+    implementation files('libs/mysql-connector-java-5.1.49.jar')
+    implementation files('libs/clingsdk_v4.7.jar')
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.7'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    //noinspection GradleCompatible
+    implementation 'com.android.support:design:27.1.1'
+    implementation "com.android.support:multidex:1.0.3"
+    implementation group: 'org.mindrot', name: 'jbcrypt', version: '0.4'
+}
